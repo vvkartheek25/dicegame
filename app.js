@@ -57,6 +57,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 document.querySelector('.btn-new').addEventListener('click', init)
 
 function init(){
+    gamePlaying = true
     scores=[0,0]
     roundScores = 0
     activePlayer = 0
